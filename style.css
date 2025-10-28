@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo y fuente general */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  color: #333;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Título principal */
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px #aaa;
+}
+
+/* Lista de asignaturas */
+ul {
+  list-style-type: square;
+  max-width: 400px;
+  margin: 0 auto 30px auto;
+  text-align: left;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+/* Imagen */
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+/* Botón */
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
